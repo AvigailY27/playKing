@@ -12,7 +12,7 @@
 
 ## ▶️ הרצה
 
-1. פתחו את הקובץ `homeplay.html`  בדפדפן Chrome/Firefox/Edge
+1. פתחו את הקובץ `pro.html`  בדפדפן Chrome/Firefox/Edge
 
 2. שחקו! 🎮  
    - אפשר להתחבר או להירשם  
