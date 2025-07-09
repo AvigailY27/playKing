@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <title>כניסה</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/pro.css">
+</head>
+
+<body>
+    <!--טופס כניסה-->
+    <h1>התחברות</h1>
+    <div class="entreForm">  
+        <div>
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="UserName 😎" >
+        </div>
+        <div>
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Password 🔑">
+        </div>
+        <input class=submit type="submit" value="להתחברות" onclick="connect()">
+        <button id="reashom" onclick="reashom()">עדיין לא רשום?!🥺 הרשם כאן</button>
+      
+    </div>
+        <!--div הרשמה -->
+    <div id="enterReashom">
+        <h4>הרשמה</h4>
+            <div >
+                <label for="name"></label>
+                <input type="text" id="namer" placeholder="UserName 😎" >
+            </div>
+            <div>
+                <label for="password"></label>
+                <input type="password" id="passwordr" placeholder="Password 🔑">
+            </div>
+            <div>
+                <label for="telephone"></label>
+                <input type="text" id="telephonr" placeholder="telephone 📞"min="0000000000" max="0999999999" step="10" >
+            </div>
+            <input class=submitr type="submit" value="סיימתי" onclick="addUser()">
+    </div>
+</body>
+<script src="..\js\pro.js"></script>
+</html>

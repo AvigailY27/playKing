@@ -1,0 +1,69 @@
+body {
+    direction: rtl;
+    background-image: url("../img/p2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #0e0d0e;
+    margin-top: 7px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(151, 126, 201);
+    border-radius: 15px;
+}
+
+.games {
+    width: 300px;
+    display: inline-block;
+    border-bottom-right-radius: revert;
+    border-color: white;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    margin: 1% 1%;
+}
+#pla :hover {
+    opacity: 0.7;
+    
+}
+
+.error {
+    display: block;
+    width: 100%;
+    position: relative;
+    border-image-width: auto;
+    margin: auto;
+}
+
+#message {
+    display:block;
+    background-color: bisque;
+    margin: auto;
+    padding: 0;
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 40%;
+    height: 60%;
+    box-shadow: 0 4px 8px 0 bisque, 0 6px 20px 0 bisque;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1;
+    display: none;
+}
+
+#return {
+    justify-content: center;
+    text-align: center;
+}
+audio{
+    /*display: none;*/
+}

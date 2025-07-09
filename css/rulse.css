@@ -1,0 +1,40 @@
+body{
+    direction: rtl;
+    background-image: url("../img/p3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: rgb(151, 126, 201);
+    font-weight: bold;
+}
+h2{
+    color: rgb(248, 245, 245);
+    font-weight: bold;
+
+}
+.rulse{
+    margin:auto;
+    text-align: center;
+}
+img{
+    width: 10px;
+}
+#toplay{
+    margin: 25px 900px 75px;
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 2%;
+    height: 6%;
+    box-shadow: 0 4px 8px 0 bisque, 0 6px 20px 0 bisque;
+}
+#spa {
+    margin-left: 5px;
+    float: left;
+    width: 4%;
+    color: white;
+    position: fixed;
+    margin-right: 97%;
+    font-weight: bold;
+}
